@@ -1,52 +1,132 @@
-#ingreso {
- 	float: right;
-	width: 25%;
-	border: black 5px solid;
-    margin: 5%;
-    box-sizing: border-box;
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<title>Hospedaje Estudiantil</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="estilo.css">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <style>
+   	body{
+   		padding-top:80px; 
+   	}
+   </style>
+</head>
+<body>
+	<div class="container">
+	<div class="container">
+		<br>
+		<br>
+		<br>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+				 <div id="logo"></div>
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<h3><img src="sql.png"style=";"width="10%"height="10%">Laboratorio De Consulta Estructurado</h3>
+					</div>
+				</div>
+			</nav>
+		</header>
+	</div>
+	<div>
+		<h1>Laboratorio SQL</h1>
+		<br>
+		<p>  Ingresa al sistema para poder hacer 
+		uso del laboratorio SQL</p>
+		<br>
+		<br>
+		<img id="img" src="https://www.polotecnologico.net/media/k2/items/cache/d087a79ceda4fc8cb2d2b11f02efa9f1_XL.png" style=";"width="25%"height="25%">
+		<div id="ingreso">
+			<h3>ingreso de usuarios</h3>
+		<article>
+			<div>
+		<input type="text" size="25" maxlength="40" value="usuario" name="nombre">
+		<br>
+		<br>
+		</div>
+		<div>
+			<input  type="password" size="25" maxlength="40" value="Ingresar Contrasena" name="contrasena">
+			<br>
+			<br>
+		</div>
+		<div>
+			<input type="button" name="ingresar" value="Ingresar">
+		</div>
+		</article>
+	</div>		
+	</div>
+	<br>
+	<br>
+	<br>		
+	<div>
+		<nav>
+			<ul>
+				<li><a href="#ejemplo">Ejemplos</a></li>
+				<li><a href="#ejercicio">Ejercicios</a></li>
+			</ul>
+		</nav>			
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="ejemplo">
+		<nav>
+			<ul>
+				<li>
+					<img src="https://social.msdn.microsoft.com/Forums/getfile/1092872" style=";"width="15%"height="15%">
 
-}
-#pie{
-		border: black 5px solid;
+				Ejemplo de uso de las sentencias de creacion de tablas</li>
+				<li>
+					<img src="https://www.campusmvp.es/recursos/image.axd?picture=SQL-Insercion-Datos.png" style=";"width="15%"height="15%">
 
-}
+				Ejemplo de uso de las sentencias de insercionde datos </li>
+				<li>
+					<img src="http://www.ajsolucionesinformaticas.com/imagenes/ices/ices_9.jpg" style=";"width="15%"height="15%">
+				Ejemplo de uso de consultas con sentencia in</li>
+			</ul>
+			
+		</nav>		
+		
 
-.container{
-	width: 80%;
-	max-width: 1000px;
-	margin:0 auto;
-	overflow: hidden;
-}
-.main{
-	width: 70%;
-	background: #fff;
-}
-aside{
-	width: 30%;
-	padding: 20px;
-	box-sizing: border-box;
-}
-#imag{
-	width: 100%;
-	height: auto;
-}
-@media screen and (max-width: 800px){
-	#ingreso{
-		width: 100%;
+	</div>
 
-	}
-	aside{
-		width: 100%;
-	}
+	<div name="ejercicio" id="ejercicio">
+		<nav>
+			<ul>
+				<li>
+					<img src="https://www.ociolatino.com/wp-content/uploads/2018/06/Apps-sobre-el-Mundial-de-F%C3%BAtbol-de-Rusia-2018.jpg" style=";"width="15%"height="15%">
+
+				Ejercicio del mundial</li>
+				<li>
+					<img src="http://gidis.ufps.edu.co:8080/calidadGidis/Vista/img/logo_ufps_inverted.png" style=";"width="16%"height="16%">
+
+				Ejercicio  de la UFPS </li>
+				<li>
+<img src="https://www.cronista.com/__export/1514369422803/sites/diarioelcronista/img/2017/12/27/energia-renovables-3.jpg_258117318.jpg" style=";"width="15%"height="15%">
+				Ejercicio de energia renovable </li>
+				<li>
+<img src="https://s-ec.bstatic.com/images/hotel/max1280x900/468/46871800.jpg" style=";"width="15%"height="15%">
+				Ejercicio del hotel</li>
+			</ul>
+			
+		</nav>		
+		
+		
+	</div>
 	
-}
-
-@media screen and (max-width: 400px){
-	.container{
-		width: 100%;
-		background-color: #FBEFF2;
-	}
-	#img{
-		width: 82%;
-	}
-}
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<footer>
+		<br>
+		<br>
+		<br>
+<p>Nicolas Pinzon Aparicio Cod:1151634 </p>
+<p>Carrera: Ingenieria de sistemas</p>
+<p>Semestre:2018-2</p>
+</footer>
+</div>
+</body>
+</html>

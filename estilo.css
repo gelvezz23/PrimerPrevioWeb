@@ -1,5 +1,52 @@
 #ingreso {
  	float: right;
-	width: 40%;
+	width: 25%;
+	border: black 5px solid;
+    margin: 5%;
+    box-sizing: border-box;
 
+}
+#pie{
+		border: black 5px solid;
+
+}
+
+.container{
+	width: 80%;
+	max-width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.main{
+	width: 70%;
+	background: #fff;
+}
+aside{
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+#imag{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 800px){
+	#ingreso{
+		width: 100%;
+
+	}
+	aside{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 400px){
+	.container{
+		width: 100%;
+		background-color: #FBEFF2;
+	}
+	#img{
+		width: 82%;
+	}
 }
